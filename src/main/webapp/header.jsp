@@ -4,6 +4,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+<!-- 테스트 -->
 	<meta charset="UTF-8">
     <title>Human Cinema</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
