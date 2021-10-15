@@ -1,9 +1,9 @@
 package com.human.cinema;
-
+ 
 import java.text.DateFormat;
 import java.util.Date;
 import java.util.Locale;
-
+https://github.com/hansol29/cinema/blob/master/src/main/java/com/human/cinema/HomeController.java
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Controller;
