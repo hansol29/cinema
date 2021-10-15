@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="CustomerDAO">
+
+	<insert id="insertCustomer">
+	<!-- <![CDATA[ -->
+		insert into customer(email, password, name, birth)
+		values(#{email}, #{password}, #{name}, #{birth})
+	<!-- ]]> -->
+	</insert>
+	
+	<select id="getCustomer" resultType="customer">
+		select * from customer where email = #{email} and password = #{password}
+	</select>
+
+	<!--<update id="updateUser">
+	<![CDATA[
+		update users set title=#{title}, content=#{content} where seq=#{seq}
+	]]>
+	</update>
+	
+	<delete id="deleteUser">
+	<![CDATA[
+		delete users where seq=#{seq}
+	]]>
+	</delete>
+	
+	<select id="getUser" resultType="user">
+	<![CDATA[
+		select * from users where seq=#{seq}
+	]]>
+	</select>
+	
+	<select id="getUserList" resultType="user">
+	<![CDATA[
+		select * from users order by seq desc
+	]]>
+	</select> -->
+</mapper>
