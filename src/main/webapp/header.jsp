@@ -23,7 +23,7 @@
     <link href="resources/lib/animate/animate.min.css" rel="stylesheet">
     <link href="resources/lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
 
-    <!-- Template Stylesheet -->
+    <!-- Template Stylesheet ~-->
     <link href="resources/css/style.css" rel="stylesheet">
 </head>
 <body>
