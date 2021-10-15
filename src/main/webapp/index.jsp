@@ -1,7 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <%@ include file="../../../header.jsp" %>
-<!-- github 연동 테스트를 위한 주석 -->
+
         <style>
         	
 		.navbar-dark .navbar-nav .nav-link{
