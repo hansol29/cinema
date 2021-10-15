@@ -11,7 +11,7 @@ public class LogoutController {
 	//로그아웃 하기
 	@RequestMapping(value= "/logout.do")
 	public String logout(HttpSession session) {
-		
+		//
 		session.invalidate();
 		
 		return "../../index";
