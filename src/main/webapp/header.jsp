@@ -27,7 +27,7 @@
     <link href="resources/css/style.css" rel="stylesheet">
 </head>
 <body>
-<!-- Top Bar Start -->
+<!-- Top Bar Start~ -->
         <div class="top-bar">
             <div class="container">
                 <div class="row align-items-center">
